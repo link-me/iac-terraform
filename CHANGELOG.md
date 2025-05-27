@@ -7,3 +7,4 @@
 - 2025-05-08: Fix auth bug
 - 2025-05-11: Enhance logging
 - 2025-05-12: Fix auth bug
+- 2025-05-27: Update docs
