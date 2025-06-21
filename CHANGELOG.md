@@ -10,3 +10,4 @@
 - 2025-05-27: Update docs
 - 2025-06-08: Enhance logging
 - 2025-06-11: Enhance logging
+- 2025-06-21: Code cleanup
