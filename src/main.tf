@@ -6,3 +6,4 @@ provider "null" {}
 # Enhance logging
 # Update docs
 # Enhance logging
+# Setup CI

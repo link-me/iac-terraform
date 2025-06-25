@@ -11,3 +11,4 @@
 - 2025-06-08: Enhance logging
 - 2025-06-11: Enhance logging
 - 2025-06-21: Code cleanup
+- 2025-06-25: Setup CI
