@@ -8,3 +8,4 @@ provider "null" {}
 # Enhance logging
 # Setup CI
 # Improve performance
+# Update dependencies
