@@ -16,3 +16,4 @@
 - 2025-06-29: Update dependencies
 - 2025-06-30: Code cleanup
 - 2025-07-15: Setup CI
+- 2025-07-16: Add feature
