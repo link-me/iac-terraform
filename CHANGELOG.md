@@ -18,3 +18,4 @@
 - 2025-07-15: Setup CI
 - 2025-07-16: Add feature
 - 2025-07-17: Improve performance
+- 2025-07-17: Add tests

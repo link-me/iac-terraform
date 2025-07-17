@@ -11,3 +11,4 @@ provider "null" {}
 # Update dependencies
 # Setup CI
 # Improve performance
+# Add tests
