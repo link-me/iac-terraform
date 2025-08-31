@@ -24,3 +24,4 @@
 - 2025-08-10: Add feature
 - 2025-08-16: Enhance logging
 - 2025-08-22: Enhance logging
+- 2025-08-31: Add tests
