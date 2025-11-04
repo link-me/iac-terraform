@@ -1,4 +1,5 @@
 data "aws_ami" "al2023" {
+  count       = var.ami_id == null ? 1 : 0
   owners      = ["137112412989"] # Amazon
   most_recent = true
 
@@ -43,7 +44,7 @@ resource "aws_security_group" "web" {
 }
 
 resource "aws_instance" "web" {
-  ami                         = data.aws_ami.al2023.id
+  ami                         = var.ami_id != null ? var.ami_id : data.aws_ami.al2023[0].id
   instance_type               = var.instance_type
   subnet_id                   = var.public_subnet_id
   associate_public_ip_address = true

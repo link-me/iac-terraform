@@ -1,0 +1,9 @@
+provider_installation {
+  # Используем локально скачанный провайдер AWS, чтобы обойти блокировку registry.terraform.io
+  dev_overrides {
+    "registry.terraform.io/hashicorp/aws" = "C:\\Users\\qepi\\Documents\\trae_projects\\LeeroyGenkins\\projects\\iac-terraform\\plugins"
+  }
+
+  # Разрешаем прямую установку для остальных провайдеров (если появятся)
+  direct {}
+}

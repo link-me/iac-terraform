@@ -21,4 +21,5 @@ module "compute" {
   public_subnet_id = module.network.public_subnet_id
   instance_type    = var.instance_type
   allow_ssh_cidr   = var.allow_ssh_cidr
+  ami_id           = var.ami_id
 }

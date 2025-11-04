@@ -27,3 +27,9 @@ variable "allow_ssh_cidr" {
   type        = string
   description = "CIDR allowed for SSH"
 }
+
+variable "ami_id" {
+  type        = string
+  description = "Optional EC2 AMI ID override to skip data source"
+  default     = null
+}

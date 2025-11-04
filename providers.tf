@@ -10,5 +10,11 @@ terraform {
 
 provider "aws" {
   region  = var.aws_region
-  profile = var.aws_profile
+  profile = var.aws_profile != "" ? var.aws_profile : null
+  access_key = "DUMMY"
+  secret_key = "DUMMY"
+  # Флаги для офлайн планирования без валидных AWS кредов
+  skip_credentials_validation = true
+  skip_requesting_account_id  = true
+  skip_metadata_api_check     = true
 }

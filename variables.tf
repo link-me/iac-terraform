@@ -45,3 +45,9 @@ variable "allow_ssh_cidr" {
   type        = string
   default     = "0.0.0.0/0"
 }
+
+variable "ami_id" {
+  description = "Optional EC2 AMI ID override to avoid AWS data lookup"
+  type        = string
+  default     = null
+}
